@@ -4,9 +4,9 @@ Rechecked x.ai/bot/marketplace/submit-a-plugin on Oct 14, 2026. The fields shown
 
 * Organization handle: illuminare
 * Website URL: illuminaremarketingagency.com
-* Logotype URL: needs a public link. Local file is assets/logo.png (512 by 512, official green Illuminare logo).
+* Logotype URL: https://raw.githubusercontent.com/VoyagersAI/small-business-marketing-kit/main/assets/logo.png (512 by 512, official green Illuminare logo)
 * Where do you want to be listed: choices not visible in the page text. The page names Grok (coming soon), Grok Bot, and Cursor. Grok Bot and Cursor, plus Grok when available.
-* Plugin source: a public GitHub repo will be needed. None created yet.
+* Plugin source: https://github.com/VoyagersAI/small-business-marketing-kit
 
 ## Short description (under 200 characters)
 A free fill-in template that helps any bot handle a small business's social media with care: voice, calendar, KEEP approval, safe follow-backs.
