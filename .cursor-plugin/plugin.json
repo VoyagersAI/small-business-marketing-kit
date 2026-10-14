@@ -1,0 +1,28 @@
+{
+  "name": "small-business-marketing-kit",
+  "displayName": "Small Business Marketing Kit",
+  "version": "0.1.0",
+  "description": "A free fill-in template for small business social media: getting started, getting access, brand voice, a weekly posting calendar, a KEEP approval step, and safe follow-back rules.",
+  "author": {
+    "name": "Illuminare Marketing Agency",
+    "url": "https://createwithima.com"
+  },
+  "homepage": "https://createwithima.com",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "small-business",
+    "social-media",
+    "brand-voice",
+    "posting-calendar",
+    "approval",
+    "marketing"
+  ],
+  "category": "productivity",
+  "tags": [
+    "marketing",
+    "social",
+    "skills"
+  ],
+  "skills": "./skills/"
+}
