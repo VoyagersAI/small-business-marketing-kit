@@ -17,6 +17,7 @@ Once your files have a home, put finished posts and other things you share on th
 ## What's inside
 - `skills/get-organized` — the four steps.
 - `skills/running-sticky-note` — how to set up and keep the Sticky Note (included so the plugin works on its own).
+- Backups and recovery section inside `get-organized` — rebuild pack outside the bot account (inspired by public Grok Bot backup guidance; missing pieces get built fresh, not cloned).
 
 ## Next plugins
 - Brand Starter Kit: once things are in one place, it writes down your rules, voice and docs.
