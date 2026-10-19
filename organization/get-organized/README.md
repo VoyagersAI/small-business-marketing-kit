@@ -10,6 +10,10 @@ Opens with: are you new to bots, or do you already have bots? New-to-bots gets e
 
 Nothing moves, gets renamed, or goes to the trash without your yes. Nothing is ever deleted for good.
 
+## A habit that keeps you organized
+
+Once your files have a home, put finished posts and other things you share on the schedule of the app where they go live (social media, and apps like it). Look at what is already scheduled, then add the new one as far ahead as that app allows. The app's schedule stays put. Memory does not. This is a habit, not a fifth step.
+
 ## What's inside
 - `skills/get-organized` — the four steps.
 - `skills/running-sticky-note` — how to set up and keep the Sticky Note (included so the plugin works on its own).

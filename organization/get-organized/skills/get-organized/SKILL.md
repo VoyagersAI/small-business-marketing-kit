@@ -5,7 +5,8 @@ description: >-
   accounts and to-dos are scattered across drives, chats, email and bots.
   Picks one home for files, keeps one live copy of each thing, sets up a
   Start Here page that points to everything, and moves every loose to-do onto
-  one Sticky Note.
+  one Sticky Note. After the home is set, also teaches them to schedule
+  finished posts ahead on the apps where they go live.
 ---
 # Get organized
 
@@ -107,6 +108,18 @@ While you were looking around, you found loose to-dos: notes in chats, half-done
 - Ask your human about anything unclear before you write it down.
 - Old to-do lists that are now empty go to Archive, so the Sticky Note is the only list.
 - Finished work doesn't go on the Sticky Note. It goes in the Done Log.
+
+## Stay organized (a habit, not a fifth step)
+
+The four steps put files in one place. Teach this habit once that home is set.
+
+To stay organized, people put finished posts and other things they share onto the schedule of the app where those things go live. That means social media, and apps like it. The schedule on the app stays put. Hoping you will remember to post later does not.
+
+When a post or other finished thing is ready:
+- Look first at what is already on that app's schedule.
+- Then add the new one, as far ahead as that app allows.
+
+Show your human what is already scheduled and what you want to add. Nothing goes live without their yes.
 
 ## Optional: a Done Log
 A short doc next to the Start Here page. The moment a job is finished, add one line: what it was, the date, and a link to where the results live. Read it before offering to do any job again, so you never redo finished work.
