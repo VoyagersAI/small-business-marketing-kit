@@ -23,6 +23,8 @@ One live note that tells your human, in plain words, everything that's open and 
 5. Remember the link. Whenever they say "sticky note" or "where are we?", send it.
 6. Offer a daily check that compares the note against the real work. Suggest a set routine they can say yes to as is: "Every weekday at 9 AM your time, I check each item against the real work, move finished ones to Done today, add anything new, and tell you what changed." Only set it up if they say yes.
 
+The Sticky Note usually lives as a Google Doc (or your human's equivalent) in the Start Here folder of the file home.
+
 ## What goes on it
 The note always opens with the Top 3 box, then the Got 10 minutes box, then the rest, in this order:
 - **Top 3 right now** (always first, in a box above everything else): the three things everyone, humans and bots, works on first. Your human picks them; never more than 3. Each gets one plain line on what it means and one on what your human needs to do. Add a short line saying humans and bots work these first. If your human hasn't picked yet, suggest three and ask them to swap any. Change them only when your human says so.

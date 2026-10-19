@@ -5,7 +5,7 @@
 ## Before you start (2 minutes)
 - Pick ONE small area to test on: one Drive folder or one project, not everything.
 - Tom may not have a Sticky Note yet — Picard should create one in Step 4.
-- Give Picard the skill: paste the text of `get-organized` SKILL (and `running-sticky-note` if Picard doesn't have it yet), or load the plugin folder if Picard can.
+- Give Picard the Get Organized skill: paste the text of `get-organized` SKILL, or load the plugin folder if Picard can. Step 4 uses the Sticky Note plugin ([`organization/sticky-note/`](../sticky-note/)). If it isn't installed, ask Tom to install it before Step 4.
 
 ## Steps (about 30 to 45 minutes)
 1. Tell Picard: **"Use the Get organized skill on [folder/project]. Look and list only. Change nothing until I say KEEP."**

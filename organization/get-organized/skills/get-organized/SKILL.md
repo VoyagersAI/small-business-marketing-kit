@@ -35,7 +35,9 @@ You are often their first bot. Slow down. Do not assume they know Drive, folders
 ### If they said "already have bots"
 Ask which bots and where they work (chat, Drive, calendar). Use what they already have. Don't rebuild a second home or a second Sticky Note. If they somehow already have a Sticky Note, add to it; otherwise create one in Step 4.
 
-**Default for v1:** humans usually already have some files and content — gather into one home, don't start from a blank desk. **Most will not have a Sticky Note yet.** Create one in Step 4 with the Running sticky note skill.
+Someone who already has bots but is still new to how they work gets the "already have bots" path, at the new-to-bots pace. Mixing the two is fine.
+
+**Default for v1:** humans usually already have some files and content — gather into one home, don't start from a blank desk. **Most will not have a Sticky Note yet.** Create one in Step 4 with the Running sticky note skill. Sticky Note is its own plugin: [`organization/sticky-note/`](../../../sticky-note/). If it isn't installed, ask your human to install it before Step 4.
 
 ## The four steps (in this order)
 1. **One home for files.** Pick one place everything lives.
@@ -49,8 +51,10 @@ Do one step at a time. Tell your human which step you're on and what's next.
 - **Look and list first. Change nothing until your human says yes.** Moving, renaming and trashing all wait for a yes.
 - **Trash only, never delete for good.** Old copies go to the trash or an Archive folder so they can come back.
 - **Ask first, always:** client files, money and legal papers, and finished work need your human's OK before they move.
+- **Files someone else owns** (a partner's Dropbox, a client's drive) are link-only. Never move, rename or archive them.
 - **Nothing goes live without your human's yes.** Silence is not a yes.
 - **Never write passwords** in any doc, list or chat. Write down who holds the sign-in, not the password. Passwords live in a password manager.
+- **Private notes your human keeps for themselves** stay out of the home, the Start Here page and the rebuild pack. Don't list what's in them.
 - **Say where you checked.** When you report something, say where you looked and when.
 
 Use the four approval words, and explain them the first time:
@@ -81,6 +85,7 @@ Then:
 ## Step 2: One live copy of each thing
 - Look through the home (and anywhere else they named) and **list** what you find. Don't change anything.
 - Group anything that looks like the same thing: same name, same purpose, or "copy of", "final", "v2".
+- A copy your human keeps on purpose (for example, an untouched original next to a working copy) isn't a duplicate. Label it as the original and leave it.
 - For each group, suggest which copy is the live one (usually the newest, or the one people actually use). Say why.
 - Show the list as numbered lines your human can answer in one reply, like "1 KEEP, 2 HOLD":
   > 1. Price list: 3 copies. Live copy: "Acme_PriceList_2026-10" (newest, edited last week). Move the other 2 to Archive?
@@ -97,13 +102,18 @@ One short page, first thing in the home, that anyone (human or bot) can open on 
 - Which accounts exist, which email owns each one, and who can get in. Never passwords.
 - "If you're new, start with..." three steps.
 - When the page was last updated, in your human's time zone (for example, "Updated 2:15 PM CT").
+- Work that lives in other apps (a course platform, a CRM, a notes app, a computer) goes on the Start Here page as links, with one line each on what lives there. Don't copy it into the home.
+
+The Start Here page is private to your human and their bot by default, and gets shared wider only if your human says so. Never put prospect or client names on it.
 
 Search the home before you make anything new. Update the Start Here page the same day anything moves.
 
 ## Step 4: Move loose to-dos onto the Sticky Note
 While you were looking around, you found loose to-dos: notes in chats, half-done lists, "TODO" in docs, open questions. They all go onto **one** Sticky Note.
-- **Most people will not have a Sticky Note yet.** Set one up with the Running sticky note skill (included in this plugin). That is the normal path.
+- **Most people will not have a Sticky Note yet.** Set one up with the Running sticky note skill. Sticky Note is its own plugin: [`organization/sticky-note/`](../../../sticky-note/). That is the normal path.
+- If the Sticky Note plugin isn't installed, ask your human to install it before Step 4.
 - Only if they already have one Sticky Note, add to it. Never make a second one.
+- A tracker that already works and has routines built on it stays as its own tracker. The Sticky Note links to it. One Sticky Note means no scattered loose to-dos, not breaking working trackers.
 - For each to-do: one or two plain lines on what it is, why it matters, and who does what next. Say where you found it.
 - Ask your human about anything unclear before you write it down.
 - Old to-do lists that are now empty go to Archive, so the Sticky Note is the only list.
@@ -115,6 +125,8 @@ The four steps put files in one place. Teach this habit once that home is set.
 
 To stay organized, people put finished posts and other things they share onto the schedule of the app where those things go live. That means social media, and apps like it. The schedule on the app stays put. Hoping you will remember to post later does not.
 
+The app's schedule means whichever scheduler actually posts it, either the platform's own or one planner tool. Keep each post in one scheduler only so nothing goes out twice.
+
 When a post or other finished thing is ready:
 - Look first at what is already on that app's schedule.
 - Then add the new one, as far ahead as that app allows.
@@ -125,10 +137,10 @@ Show your human what is already scheduled and what you want to add. Nothing goes
 The more you rely on bots, the harder a blank-slate restart feels. Keep a rebuild pack **outside** the bot account (in the file home on Drive or OneDrive) so you can get back up faster if access is lost.
 
 ### What to save (rebuild pack)
-1. **Map the setup.** Ask each bot to document its own job, rules, memory highlights, skills, and routines. Don't assume one bot can see what another learned. Flag anything inaccessible or missing.
+1. **Map the setup.** Ask each bot to document its own job, rules, memory highlights, skills, and routines. Other bots or AI tools your human uses document themselves when your human asks them to. Export memory filtered, with private and prospect notes removed. Don't assume one bot can see what another learned. Flag anything inaccessible or missing.
 2. **Connections table.** Each app, which account it uses, which bots use it, and what they're allowed to do. **Never passwords, API keys, or login tokens** — only who holds the sign-in.
 3. **Rebuild instructions** in this order: reconnect apps → create bots → restore documented instructions and context → add skills → recreate routines **paused** → set approval rules before enabling anything. Mark where a human must sign in again. Prioritize the workflows you depend on most, and include a short manual fallback while bots are unavailable.
-4. **Test one recovery.** Rebuild one non-critical workflow without changing the original. Keep external actions paused. Ask the original and rebuilt bot the same three questions about job, rules, and preferences; compare answers; record what worked, what was missing, and what still needs testing.
+4. **Test one recovery.** Rebuild one non-critical workflow without changing the original. Keep external actions paused. Standing up a second bot for the recovery test can use your human's plan or credits, so it needs its own yes. Ask the original and rebuilt bot the same three questions about job, rules, and preferences; compare answers; record what worked, what was missing, and what still needs testing.
 5. **Keep it current.** After the first backup is approved, update the rebuild pack monthly and after any big bot change. Keep dated versions. Verify saved files can be opened. Tell the human if a backup fails or is incomplete.
 6. **Restart safely.** Check unfinished work and actions already done so restarting doesn't duplicate messages or transactions. Rebuilt routines start paused; enable them one at a time after a human yes.
 
