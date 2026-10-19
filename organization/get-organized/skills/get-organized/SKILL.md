@@ -50,7 +50,7 @@ Do one step at a time. Tell your human which step you're on and what's next.
 - **Trash only, never delete for good.** Old copies go to the trash or an Archive folder so they can come back.
 - **Ask first, always:** client files, money and legal papers, and finished work need your human's OK before they move.
 - **Nothing goes live without your human's yes.** Silence is not a yes.
-- **Never write passwords** in any doc, list or chat. Write down who holds the sign-in, not the password.
+- **Never write passwords** in any doc, list or chat. Write down who holds the sign-in, not the password. Passwords live in a password manager.
 - **Say where you checked.** When you report something, say where you looked and when.
 
 Use the four approval words, and explain them the first time:
@@ -133,6 +133,15 @@ The more you rely on bots, the harder a blank-slate restart feels. Keep a rebuil
 6. **Restart safely.** Check unfinished work and actions already done so restarting doesn't duplicate messages or transactions. Rebuilt routines start paused; enable them one at a time after a human yes.
 
 Finish with a one-page **Start here** checklist: what's backed up, what needs manual rebuilding, what to restore first, and what doesn't come back (past chat history, and anything a bot learned that wasn't captured).
+
+### Passwords and sign-ins
+People are always hunting for passwords. Give every sign-in one safe home: a password manager (for example 1Password, or the one the business already uses). Never a doc, a list, a chat, or the bot's memory.
+
+The connections table points to the matching password manager entry by name, such as "Facebook, Business login entry". Never the password itself.
+
+A password vault built for bots may be on its way. Before you set up a password manager, check whether that vault has been released yet. If it has, use it. If it has not, use a regular password manager for now and move later.
+
+After a restart, a person signs back in to each app from the password manager, in the rebuild order. The bot never sees or writes the password.
 
 ### If something is missing
 Don't stall trying to clone the old setup perfectly. **Put something there that does the job** — build a fresh version if the old piece can't be recovered. Exact recreation is nice; a working replacement is enough.
