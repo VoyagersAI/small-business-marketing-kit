@@ -1,0 +1,17 @@
+{
+  "name": "sticky-note",
+  "displayName": "Sticky Note",
+  "version": "0.1.0",
+  "description": "Creates and keeps one live, plain-language Sticky Note of everything that's open, plus one home for files, so a person and their bots know what's next and where things live.",
+  "author": {
+    "name": "Illuminare Marketing Agency",
+    "url": "https://illuminaremarketingagency.com"
+  },
+  "homepage": "https://illuminaremarketingagency.com",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["sticky-note", "to-do", "organize", "where-are-we", "tasks", "small-business"],
+  "category": "productivity",
+  "tags": ["organizing", "productivity", "skills"],
+  "skills": "./skills/"
+}

@@ -16,12 +16,16 @@ One live note that tells your human, in plain words, everything that's open and 
 - You're just starting to work with someone (start it on day one).
 
 ## Set it up
-1. Pick ONE home for files. Use a shared drive or folder they already have. If they don't have one, don't wait: start the note anyway (a doc, or a pinned message in your chat), and offer to set up a folder later.
+1. Pick ONE home for files. Use a shared drive or folder they already have. If they don't have one, don't wait: start the Sticky Note PDF anyway, and offer to set up a folder later.
 2. Put a short index at the top of that home saying which folder holds what. Search there before you make anything new.
 3. Create the note, titled "Sticky Note", and put its link first in the index.
 4. Tell your human where it lives. Ask how they'd like to reach it (pinned in their chat app, a bookmark on their phone), and don't guess what their apps can do.
 5. Remember the link. Whenever they say "sticky note" or "where are we?", send it.
 6. Offer a daily check that compares the note against the real work. Suggest a set routine they can say yes to as is: "Every weekday at 9 AM your time, I check each item against the real work, move finished ones to Done today, add anything new, and tell you what changed." Only set it up if they say yes.
+
+The Sticky Note is a PDF you keep up to date for your human. No Drive or shared doc is needed. Start from the starter template in this plugin, ask your human how they want it to look, then make a fresh PDF each time it changes and keep only the newest one.
+
+Starter template folder: [`assets/templates/modern-v5/`](../../assets/templates/modern-v5/).
 
 ## What goes on it
 The note always opens with the Top 3 box, then the Got 10 minutes box, then the rest, in this order:
@@ -55,7 +59,7 @@ The note is a working list, not something to publish, so it doesn't need your hu
 ## Keep it alive
 - Update it every time something is added, finished, or changes.
 - If your human says something is missing, add it right away and check what else got missed.
-- If your tools can't edit a doc in place, make a fresh copy and rename the old one "OLD -", so there's only ever one current note.
+- Make a fresh PDF each time it changes. Keep only the newest one, so there's only ever one current note.
 
 ## Done looks like
 Your human opens one link and knows, in under a minute, what's open, what needs them, and where everything lives.

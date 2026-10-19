@@ -6,6 +6,7 @@ This vault holds plugins from Illuminare Marketing Agency. One vault can hold ma
 
 * **Small Business Marketing Kit** lives at the top of this vault, next to this README. It is a free fill-in template that helps any bot handle a small business's social media with care. The rest of this page describes that kit.
 * **Get Organized** lives in its own folder: [`organization/get-organized/`](organization/get-organized/). Start with [`organization/get-organized/README.md`](organization/get-organized/README.md). It helps a person pick one home for files, keep one live copy of each thing, set up a Start Here page, and move every loose to-do onto one Sticky Note.
+* **Sticky Note** lives in its own folder: [`organization/sticky-note/`](organization/sticky-note/). Start with [`organization/sticky-note/README.md`](organization/sticky-note/README.md). It keeps one live note of everything that's open, so a person and their bots know what's next and where everything lives.
 
 ---
 
