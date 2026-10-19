@@ -1,3 +1,14 @@
+# Illuminare plugins
+
+This vault holds plugins from Illuminare Marketing Agency. One vault can hold many plugins. Each plugin lives in its own place.
+
+## Plugins in this vault
+
+* **Small Business Marketing Kit** lives at the top of this vault, next to this README. It is a free fill-in template that helps any bot handle a small business's social media with care. The rest of this page describes that kit.
+* **Get Organized** lives in its own folder: [`get-organized/`](get-organized/). Start with [`get-organized/README.md`](get-organized/README.md). It helps a person pick one home for files, keep one live copy of each thing, set up a Start Here page, and move every loose to-do onto one Sticky Note.
+
+---
+
 # Small Business Marketing Kit
 
 This is a free plugin for Grok Bot and Cursor: a fill-in template that helps any bot handle a small business's social media with care.

@@ -1,0 +1,17 @@
+{
+  "name": "get-organized",
+  "displayName": "Get Organized",
+  "version": "0.1.0",
+  "description": "The first step for any person or business working with bots: gather your files, lists and accounts into one home, keep one live copy of each thing, set up a Start Here page, and move every loose to-do onto one Sticky Note.",
+  "author": {
+    "name": "Illuminare Marketing Agency",
+    "url": "https://illuminaremarketingagency.com"
+  },
+  "homepage": "https://illuminaremarketingagency.com",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["organize", "files", "start-here", "sticky-note", "to-do", "small-business"],
+  "category": "productivity",
+  "tags": ["organizing", "productivity", "skills"],
+  "skills": "./skills/"
+}
