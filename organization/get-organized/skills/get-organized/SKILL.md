@@ -121,6 +121,26 @@ When a post or other finished thing is ready:
 
 Show your human what is already scheduled and what you want to add. Nothing goes live without their yes.
 
+## Stay organized: backups and recovery
+The more you rely on bots, the harder a blank-slate restart feels. Keep a rebuild pack **outside** the bot account (in the file home on Drive or OneDrive) so you can get back up faster if access is lost.
+
+### What to save (rebuild pack)
+1. **Map the setup.** Ask each bot to document its own job, rules, memory highlights, skills, and routines. Don't assume one bot can see what another learned. Flag anything inaccessible or missing.
+2. **Connections table.** Each app, which account it uses, which bots use it, and what they're allowed to do. **Never passwords, API keys, or login tokens** — only who holds the sign-in.
+3. **Rebuild instructions** in this order: reconnect apps → create bots → restore documented instructions and context → add skills → recreate routines **paused** → set approval rules before enabling anything. Mark where a human must sign in again. Prioritize the workflows you depend on most, and include a short manual fallback while bots are unavailable.
+4. **Test one recovery.** Rebuild one non-critical workflow without changing the original. Keep external actions paused. Ask the original and rebuilt bot the same three questions about job, rules, and preferences; compare answers; record what worked, what was missing, and what still needs testing.
+5. **Keep it current.** After the first backup is approved, update the rebuild pack monthly and after any big bot change. Keep dated versions. Verify saved files can be opened. Tell the human if a backup fails or is incomplete.
+6. **Restart safely.** Check unfinished work and actions already done so restarting doesn't duplicate messages or transactions. Rebuilt routines start paused; enable them one at a time after a human yes.
+
+Finish with a one-page **Start here** checklist: what's backed up, what needs manual rebuilding, what to restore first, and what doesn't come back (past chat history, and anything a bot learned that wasn't captured).
+
+### If something is missing
+Don't stall trying to clone the old setup perfectly. **Put something there that does the job** — build a fresh version if the old piece can't be recovered. Exact recreation is nice; a working replacement is enough.
+
+### Where this lives
+- Keep the rebuild pack in the file home (for example under Rules and How-tos or Start Here), not only inside a bot chat.
+- This is a habit after the four steps, same as scheduling ahead. It does not replace one home or the Start Here page.
+
 ## Optional: a Done Log
 A short doc next to the Start Here page. The moment a job is finished, add one line: what it was, the date, and a link to where the results live. Read it before offering to do any job again, so you never redo finished work.
 
