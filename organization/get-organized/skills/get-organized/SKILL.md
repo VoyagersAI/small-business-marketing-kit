@@ -102,7 +102,8 @@ Search the home before you make anything new. Update the Start Here page the sam
 
 ## Step 4: Move loose to-dos onto the Sticky Note
 While you were looking around, you found loose to-dos: notes in chats, half-done lists, "TODO" in docs, open questions. They all go onto **one** Sticky Note.
-- **Most people will not have a Sticky Note yet.** Set one up with the Running sticky note skill (included in this plugin). That is the normal path.
+- **Most people will not have a Sticky Note yet.** Set one up with the Running sticky note skill from the Sticky Note plugin ([`organization/sticky-note/`](../../../sticky-note/) in this repo). That is the normal path.
+- If the Sticky Note plugin isn't installed, ask your human to install it before this step.
 - Only if they already have one Sticky Note, add to it. Never make a second one.
 - For each to-do: one or two plain lines on what it is, why it matters, and who does what next. Say where you found it.
 - Ask your human about anything unclear before you write it down.
