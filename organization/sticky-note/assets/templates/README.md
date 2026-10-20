@@ -10,7 +10,7 @@ The bot builds the Sticky Note PDF from these files. Ask your human how they wan
 - `banner-waiting-on-you.png`: banner for "Waiting on you".
 - `banner-fix-it.png`: banner for "Fix it".
 - `banner-to-talk-about.png`: banner for "To talk about".
-- `banner-to-go-over.png`: banner whose words say "To go over with Kelly". That name is a sample, to be renamed for the human.
+- `banner-to-go-over.png`: banner whose words say "To go over with [owner name]". Put the bot owner's name in the brackets. The bot owner ([owner's name]) has final approval.
 - `banner-parked-for-later.png`: banner for "Parked for later".
 - `banner-lessons-learned.png`: banner for "Lessons learned".
 - `build.py`: builds the header, the banners, and the mockup. Picture and font paths are relative to this folder.

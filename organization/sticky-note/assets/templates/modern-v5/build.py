@@ -34,7 +34,7 @@ COLORS={'Fix it':(0x45,0xA1,0x63),
         'Parked for later':(0xA8,0xBF,0xA0),
         'To talk about':(0x9C,0xCF,0xD8),
         'Lessons learned':(0xD6,0xE8,0xA8),
-        'To go over with Kelly':(0xF7,0xB2,0x67)}
+        'To go over with [owner name]':(0xF7,0xB2,0x67)}
 notes={k:whiten_bg(tint_to(NOTE_IM,(500,200,800,500),v)) for k,v in COLORS.items()}
 WHITE=(255,255,255)
 def place(crop,size,bg,feather=160):
@@ -52,9 +52,9 @@ d.text((100,262),'Everything open, in one place',font=font(56,'Regular'),fill=GR
 d.rectangle((100,340,172,346),fill=YEL)
 hdr.save(os.path.join(HERE, 'header.png'))
 # Banners: single yellow note crop
-# "To go over with Kelly" is a sample name. Rename it for the human. See ../README.md.
+# "To go over with [owner name]" is a sample name. Rename it for the human. See ../README.md.
 
-names=['Fix it',"What we're working on",'Waiting on you','Parked for later','To talk about','Lessons learned','To go over with Kelly']
+names=['Fix it',"What we're working on",'Waiting on you','Parked for later','To talk about','Lessons learned','To go over with [owner name]']
 BANNER_FILES={
     'Fix it':'banner-fix-it.png',
     "What we're working on":'banner-what-were-working-on.png',
@@ -62,7 +62,7 @@ BANNER_FILES={
     'Parked for later':'banner-parked-for-later.png',
     'To talk about':'banner-to-talk-about.png',
     'Lessons learned':'banner-lessons-learned.png',
-    'To go over with Kelly':'banner-to-go-over.png',
+    'To go over with [owner name]':'banner-to-go-over.png',
 }
 ban={}
 for n in names:
@@ -84,7 +84,7 @@ def lines(ls):
     for i,t in enumerate(ls):
         y=40+i*58; d.ellipse((124,y+12,136,y+24),fill=GREEN); d.text((160,y),t,font=body,fill=TEXT)
     return im
-samples={'Fix it':s1,'To talk about':['Which brand kit to build first'],'To go over with Kelly':['Sticky Note art test results'],"What we're working on":['Drafting the fall newsletter','Updating the service page photos'],
+samples={'Fix it':s1,'To talk about':['Which brand kit to build first'],'To go over with [owner name]':['Sticky Note art test results'],"What we're working on":['Drafting the fall newsletter','Updating the service page photos'],
  'Waiting on you':s2,'Parked for later':['Refresh the about page story'],'Lessons learned':['Short captions get more replies','Batching posts on Mondays saves time']}
 parts=[hdr,Image.new('RGB',(1600,40),'white')]
 for n in names: parts+= [ban[n],lines(samples[n]),Image.new('RGB',(1600,30),'white')]
