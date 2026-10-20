@@ -1,5 +1,8 @@
 # Get Organized (v0.1.0 DRAFT)
 
+## Before you start
+Before you start any task, check the crew rules (CREW_Knowledge) first. Keep crew rules in two places: on your computer and in a second drive, like Google Drive if you use it. If something new comes up that sounds like a lasting rule, ask your owner: 'Should this go into crew rules? Because if it isn't saved there, I will forget.' Add it to both copies only after they say yes.
+
 The first step for anyone working with bots. Your bot helps you:
 1. Pick one home for your files.
 2. Keep one live copy of each thing.

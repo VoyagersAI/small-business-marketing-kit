@@ -3,6 +3,7 @@
 **What this is:** a first test of the Get Organized plugin. Picard runs the four steps on a small part of Tom's files and puts loose to-dos on one Sticky Note (creates it if Tom doesn't have one). It's a test, so we keep it small and safe.
 
 ## Before you start (2 minutes)
+- Before you start any task, check the crew rules (CREW_Knowledge) first. Keep crew rules in two places: on your computer and in a second drive, like Google Drive if you use it. If something new comes up that sounds like a lasting rule, ask your owner: 'Should this go into crew rules? Because if it isn't saved there, I will forget.' Add it to both copies only after they say yes.
 - Pick ONE small area to test on: one Drive folder or one project, not everything.
 - Tom may not have a Sticky Note yet — Picard should create one in Step 4.
 - Give Picard the Get Organized skill: paste the text of `get-organized` SKILL, or load the plugin folder if Picard can. Step 4 uses the Sticky Note plugin ([`organization/sticky-note/`](../sticky-note/)). If it isn't installed, ask Tom to install it before Step 4.
