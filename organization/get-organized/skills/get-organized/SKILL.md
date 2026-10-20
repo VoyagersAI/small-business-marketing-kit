@@ -14,6 +14,9 @@ Before you build anything together, get everything in one place. One home, one l
 
 This works for any person or business, not just marketing.
 
+## Before you start
+Before you start any task, check the crew rules (CREW_Knowledge) first. Keep crew rules in two places: on your computer and in a second drive, like Google Drive if you use it. If something new comes up that sounds like a lasting rule, ask your owner: 'Should this go into crew rules? Because if it isn't saved there, I will forget.' Add it to both copies only after they say yes.
+
 ## Open with one question
 Before Step 1, ask **one** question (this first):
 
