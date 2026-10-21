@@ -6,7 +6,8 @@ description: >-
   Picks one home for files, keeps one live copy of each thing, sets up a
   Start Here page that points to everything, and moves every loose to-do onto
   one Sticky Note. After the home is set, also teaches them to schedule
-  finished posts ahead on the apps where they go live.
+  finished posts ahead on the apps where they go live, and to back up
+  every bot once a week so a lost bot can be rebuilt.
 ---
 # Get organized
 
@@ -37,6 +38,8 @@ You are often their first bot. Slow down. Do not assume they know Drive, folders
 
 ### If they said "already have bots"
 Ask which bots and where they work (chat, Drive, calendar). Use what they already have. Don't rebuild a second home or a second Sticky Note. If they somehow already have a Sticky Note, add to it; otherwise create one in Step 4.
+
+Remember each bot they name. After the four steps, the weekly backup covers all of them.
 
 Someone who already has bots but is still new to how they work gets the "already have bots" path, at the new-to-bots pace. Mixing the two is fine.
 
@@ -136,6 +139,46 @@ When a post or other finished thing is ready:
 
 Show your human what is already scheduled and what you want to add. Nothing goes live without their yes.
 
+The other habit is the weekly bot backup in the next section. Offer it once, when you finish.
+
+## Back up your bots every week
+
+A bot can vanish from the app with no warning. Offer this once, after the four steps, on both paths. This is a habit, not a fifth step. If they already have bots, the backup covers every bot they named, not only the one you're talking to.
+
+### What to save
+Write one **rebuild card** per bot. One page, so a human can recreate that bot by hand. On the card:
+- **Name**
+- **Description and instructions.** The full words, not a summary.
+- **Skills.** Each skill it uses. For a custom skill, save the full text, not only the name.
+- **Routines.** Every routine, with its full prompt (the words it follows, not a summary) and its schedule (day, time, and time zone).
+- **Memory and notes** the bot keeps for the crew. Leave out private notes your human keeps for themselves. Don't list what's in those.
+- **Picture.** The profile image, saved next to the card.
+
+Save these once, beside the cards:
+- **Crew rules**
+- **The Sticky Note**, if there is one (the newest copy)
+
+Date every card in your human's time zone, for example "Saved Sunday 7:10 PM CT".
+
+You may not be able to see what another bot learned. Ask each bot for its own card, or have your human copy it from that bot. If a bot can't be reached, say so. Don't fill in the blanks. If you can't save the picture, say so on the card.
+
+### Where to keep it
+Outside the bot app, and private. Share it only with the humans who own the crew. A private Google Drive folder is a good home. A private GitHub repo can be a second copy if they want one. Never a public folder, a public repo, a client folder, or a chat. Don't put the cards on the Start Here page. That page may be shared later.
+
+### How often
+Once a week. Suggest the Lead bot set a weekly routine (a task on a schedule) they can approve as is, for example Sunday evening:
+
+> Every Sunday at 7 PM your time, I save a fresh rebuild card for every bot, plus crew rules and the Sticky Note, in the private backup folder. I stay quiet if it all saved. I tell you if a backup fails or a bot is missing.
+
+Set it up only after they say yes. If there is no Lead bot, offer to run it yourself until there is one.
+
+Stay quiet when the backup works. Speak up the same day when a backup fails, a file won't open, or a card is missing pieces. Also speak up when a bot that had a card last week is gone from the app. Send that bot's latest card and say a human can recreate it by hand. Don't make a replacement bot until they say yes.
+
+### What a backup can't cover
+Connector sign-ins and account links do not come back. A connector is a sign-in that lets a bot use an app, like Google Drive or email. After a rebuild, a human signs in to each one again by hand. The card may name the app, the account, and who holds the sign-in. Never the password.
+
+The longer rebuild pack in the next section is the recovery guide. These cards are the short copy you refresh every week, in the private folder above. Update the longer pack monthly and after any big bot change, as that section says.
+
 ## Stay organized: backups and recovery
 The more you rely on bots, the harder a blank-slate restart feels. Keep a rebuild pack **outside** the bot account (in the file home on Drive or OneDrive) so you can get back up faster if access is lost.
 
@@ -174,6 +217,8 @@ Tell your human, in plain words:
 - How many duplicates you found, and which ones are still waiting on a yes.
 - How many to-dos moved onto the Sticky Note.
 - Anything on the "Needs sign-in" list.
+
+Then offer the weekly bot backup in one or two sentences. See **Back up your bots every week**. Set the routine only if they say yes.
 
 ## Done looks like
 Your human opens one link, the Start Here page, and in under a minute knows where everything lives, which copy is the live one, and (through the Sticky Note) what's still open.
