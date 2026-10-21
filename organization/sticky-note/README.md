@@ -2,11 +2,11 @@
 
 One live note that tells you, in plain words, everything that's open and what you need to do. Your bot sets it up and keeps it current.
 
-It is a PDF the bot keeps up to date, made from the starter template included in this plugin (`assets/templates/modern-v5/`).
+It is a PDF the bot keeps up to date. The blanks are in `assets/templates/`: a simple one for one person, a team one, page shells for the pretty PDF, and the Modern v5 pictures.
 
 ## What's inside
-- `skills/running-sticky-note`: how to set up and keep the Sticky Note.
-- `assets/templates/modern-v5`: the Modern v5 starter template the PDF is made from.
+- `skills/running-sticky-note`: how to set up and keep the Sticky Note, and which blank to offer.
+- `assets/templates`: the blanks. Start with `assets/templates/README.md`.
 
 Get Organized uses this plugin for Step 4: [`organization/get-organized/`](../get-organized/).
 
