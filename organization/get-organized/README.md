@@ -17,6 +17,12 @@ Nothing moves, gets renamed, or goes to the trash without your yes. Nothing is e
 
 Once your files have a home, put finished posts and other things you share on the schedule of the app where they go live (social media, and apps like it). Look at what is already scheduled, then add the new one as far ahead as that app allows. The app's schedule stays put. Memory does not. This is a habit, not a fifth step.
 
+## Tips
+
+See what's new in Grok Bot: check the [changelog](https://x.ai/changelog/bot) each week, and have your Lead tell the crew about anything that changes how you work.
+
+Each bot can make its own custom icon. Ask each bot how it pictures itself and why. Have a design bot (or any bot that makes images) draw it from that answer, and then each bot sets the picture as its own profile picture.
+
 ## What's inside
 - `skills/get-organized` — the four steps.
 - Backups and recovery section inside `get-organized` — rebuild pack outside the bot account (inspired by public Grok Bot backup guidance; missing pieces get built fresh, not cloned).
