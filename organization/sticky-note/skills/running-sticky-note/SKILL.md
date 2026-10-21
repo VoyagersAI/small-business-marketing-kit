@@ -18,14 +18,23 @@ One live note that tells your human, in plain words, everything that's open and 
 ## Set it up
 1. Pick ONE home for files. Use a shared drive or folder they already have. If they don't have one, don't wait: start the Sticky Note PDF anyway, and offer to set up a folder later.
 2. Put a short index at the top of that home saying which folder holds what. Search there before you make anything new.
-3. Create the note, titled "Sticky Note", and put its link first in the index.
-4. Tell your human where it lives. Ask how they'd like to reach it (pinned in their chat app, a bookmark on their phone), and don't guess what their apps can do.
-5. Remember the link. Whenever they say "sticky note" or "where are we?", send it.
-6. Offer a daily check that compares the note against the real work. Suggest a set routine they can say yes to as is: "Every weekday at 9 AM your time, I check each item against the real work, move finished ones to Done today, add anything new, and tell you what changed." Only set it up if they say yes.
+3. Ask if this note is for one person or for a team. Offer the blank that fits, from "Which blank to offer" below.
+4. Create the note, titled "Sticky Note", and put its link first in the index.
+5. Tell your human where it lives. Ask how they'd like to reach it (pinned in their chat app, a bookmark on their phone), and don't guess what their apps can do.
+6. Remember the link. Whenever they say "sticky note" or "where are we?", send it.
+7. Offer a daily check that compares the note against the real work. Suggest a set routine they can say yes to as is: "Every weekday at 9 AM your time, I check each item against the real work, move finished ones to Done today, add anything new, and tell you what changed." Only set it up if they say yes.
 
-The Sticky Note is a PDF you keep up to date for your human. No Drive or shared doc is needed. Start from the starter template in this plugin, ask your human how they want it to look, then make a fresh PDF each time it changes and keep only the newest one.
+## Which blank to offer
 
-Starter template folder: [`assets/templates/modern-v5/`](../../assets/templates/modern-v5/).
+The blanks live in [`assets/templates/`](../../assets/templates/). Each file is explained in [`assets/templates/README.md`](../../assets/templates/README.md).
+
+- One person and their bot: offer the simple template (template A), [`fill-in/simple.html`](../../assets/templates/fill-in/simple.html). They make a copy and replace every [bracket] with their own words.
+- A team of people and bots: offer the team template (template B). The same words are in three files. Offer the one they can open: [`team.html`](../../assets/templates/fill-in/team.html), [`team.docx`](../../assets/templates/fill-in/team.docx), or [`team.pdf`](../../assets/templates/fill-in/team.pdf).
+- The pretty PDF: build it from a page shell. Use [`plain.html`](../../assets/templates/page-shells/plain.html) for a simple page, or [`hue-modern.html`](../../assets/templates/page-shells/hue-modern.html) for the modern look. The modern shell keeps its font and header picture inside the file, so the page looks right on any computer. Fill a shell with [`render.py`](../../assets/templates/page-shells/render.py). If you need to draw the header and the banners again, those pictures and their script are in [`modern-v5/`](../../assets/templates/modern-v5/).
+
+The Sticky Note you keep up to date is a PDF. No Drive or shared doc is needed. The fill in files are the blanks you offer so a person can see the shape. Ask your human how they want the page to look, make a fresh PDF each time the note changes, and keep only the newest one.
+
+To build that PDF, write the note as plain text. Line 1 is the title. Line 2 says when it was updated, in your human's own time zone, with a label (for example, "Updated Tue 9:40 AM CT"). The rest is the body. A heading written as `##` that starts with ⭐ becomes the Top 3 box. A heading written as `##` that starts with ⏱ becomes the Got 10 minutes box. Run render.py with the text file, the shell you picked, and the html file to write. Then make the PDF from that html.
 
 ## What goes on it
 The note always opens with the Top 3 box, then the Got 10 minutes box, then the rest, in this order:
