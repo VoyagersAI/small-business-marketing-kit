@@ -39,6 +39,16 @@ A backup cannot bring connector sign-ins or account links back. A connector is a
 
 This is a habit after the four steps, same as scheduling posts ahead. The bot offers it once setup is done, and sets the routine only if you say yes.
 
+## Update your skills once a month
+
+Crew rules change. A skill can keep old words long after those rules moved on. Once a month, the Lead bot checks every skill the crew uses, including the skills that came with this kit.
+
+It opens both copies of the crew rules and reads them fresh. Memory does not count. If the two copies disagree, it asks which one is current before it checks any skill. Then it lists what is outdated or missing in each skill, and sends you a short list of proposed changes. Nothing in a skill changes until you say KEEP.
+
+The Lead bot can run this on a routine (a task on a schedule), for example the morning of the 1st. If every skill already matches the rules, it sends one line that says so.
+
+This is a habit after the four steps, same as the weekly bot backup. The bot offers it once setup is done, and sets the routine only if you say yes.
+
 ## Tips
 
 See what's new in Grok Bot: check the [changelog](https://x.ai/changelog/bot) each week, and have your Lead tell the crew about anything that changes how you work.
@@ -48,6 +58,7 @@ Each bot can make its own custom icon. Ask each bot how it pictures itself and w
 ## What's inside
 - `skills/get-organized` — the four steps.
 - Weekly bot backup inside `get-organized` — a private rebuild card for each bot, refreshed once a week, plus crew rules and the Sticky Note.
+- Monthly skill check inside `get-organized`. Once a month the Lead bot reads the current crew rules and lists what is outdated or missing in each skill. Nothing changes until you say KEEP.
 - Backups and recovery section inside `get-organized` — rebuild pack outside the bot account (inspired by public Grok Bot backup guidance; missing pieces get built fresh, not cloned).
 
 Sticky Note is its own plugin: [`organization/sticky-note/`](../sticky-note/). If it isn't installed, the bot asks its human to install it before Step 4.

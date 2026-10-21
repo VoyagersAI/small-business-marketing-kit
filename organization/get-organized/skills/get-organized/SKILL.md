@@ -6,8 +6,9 @@ description: >-
   Picks one home for files, keeps one live copy of each thing, sets up a
   Start Here page that points to everything, and moves every loose to-do onto
   one Sticky Note. After the home is set, also teaches them to schedule
-  finished posts ahead on the apps where they go live, and to back up
-  every bot once a week so a lost bot can be rebuilt.
+  finished posts ahead on the apps where they go live, to back up
+  every bot once a week so a lost bot can be rebuilt, and to review
+  every skill once a month against the current crew rules.
 ---
 # Get organized
 
@@ -39,7 +40,7 @@ You are often their first bot. Slow down. Do not assume they know Drive, folders
 ### If they said "already have bots"
 Ask which bots and where they work (chat, Drive, calendar). Use what they already have. Don't rebuild a second home or a second Sticky Note. If they somehow already have a Sticky Note, add to it; otherwise create one in Step 4.
 
-Remember each bot they name. After the four steps, the weekly backup covers all of them.
+Remember each bot they name, and the skills those bots use. After the four steps, the weekly backup covers every bot, and the monthly skill check covers every skill, including the skills that came with this kit.
 
 Someone who already has bots but is still new to how they work gets the "already have bots" path, at the new-to-bots pace. Mixing the two is fine.
 
@@ -139,7 +140,7 @@ When a post or other finished thing is ready:
 
 Show your human what is already scheduled and what you want to add. Nothing goes live without their yes.
 
-The other habit is the weekly bot backup in the next section. Offer it once, when you finish.
+The other habits are the weekly bot backup and the monthly skill check in the next sections. Offer each once, when you finish.
 
 ## Back up your bots every week
 
@@ -177,7 +178,45 @@ Stay quiet when the backup works. Speak up the same day when a backup fails, a f
 ### What a backup can't cover
 Connector sign-ins and account links do not come back. A connector is a sign-in that lets a bot use an app, like Google Drive or email. After a rebuild, a human signs in to each one again by hand. The card may name the app, the account, and who holds the sign-in. Never the password.
 
-The longer rebuild pack in the next section is the recovery guide. These cards are the short copy you refresh every week, in the private folder above. Update the longer pack monthly and after any big bot change, as that section says.
+The longer rebuild pack in **Stay organized: backups and recovery** is the recovery guide. These cards are the short copy you refresh every week, in the private folder above. Update the longer pack monthly and after any big bot change, as that section says.
+
+## Update your skills once a month
+
+Crew rules change. A skill can keep old words long after those rules moved on. Offer this once, after the four steps, on both paths. This is a habit, not a fifth step. It covers every skill the crew uses, including the skills that came with this kit. Count this skill too.
+
+### What to read
+Open the current crew rules file and read it fresh that day. Memory does not count. Crew rules live in two places: on your human's computer, and in a second drive. Read both. If they disagree, tell your human and wait until they say which copy is current. Check skills only after they name that copy.
+
+Then open every skill the crew uses and read each one fresh. That means skills that came with this kit, and any skill a bot on the crew added later. If you cannot open a skill, say so. Do not fill in the blanks.
+
+### What to list
+Crew rules are the source. Propose changes to the skills. Leave the rules file as it is. Compare each skill to the rules you just read. List only what is outdated or missing:
+- **Outdated.** The skill still tells the crew to do something the current rules no longer say, or it conflicts with a current rule.
+- **Missing.** A current rule belongs in this skill and is not there. A rule belongs in a skill only when that skill is the one that does that work. Do not paste every rule into every skill.
+
+Leave out a skill that already matches. Do not propose a change only to reword something that is already right.
+
+### What you send
+Send your human a short list the same day. One block per skill that needs a change:
+- The skill name
+- What is outdated or missing, in a sentence or two
+- The proposed change, in plain words
+
+Number the lines so they can answer in one reply, like "1 KEEP, 2 HOLD".
+
+If every skill matches, send one line that says so. Name the rules file you read and the date, in your human's time zone.
+
+### Nothing changes until they say yes
+Do not edit a skill, a routine, or the rules file during the review. A KEEP on a numbered line means make that change. EDIT means change the proposal and show it again. HOLD means leave the skill as it is for now. CUT means drop that proposal. No answer means no change.
+
+If you cannot edit a skill that came with the kit, save the approved wording next to the crew rules and say the original file was left as it is.
+
+### How often
+Once a month. Suggest the Lead bot set a monthly routine (a task on a schedule) they can approve as is, for example the morning of the 1st:
+
+> On the 1st of each month at 9 AM your time, I open the crew rules file and read it fresh. I read both copies. If they disagree, I tell you and wait. Memory does not count. I check every skill the crew uses, including the skills that came with this kit. I send you a short list of what is outdated or missing in each skill, and a proposed change for each one. If everything already matches, I send one line that says so. I change nothing until you say KEEP.
+
+Set it up only after they say yes. If there is no Lead bot, offer to run it yourself until there is one.
 
 ## Stay organized: backups and recovery
 The more you rely on bots, the harder a blank-slate restart feels. Keep a rebuild pack **outside** the bot account (in the file home on Drive or OneDrive) so you can get back up faster if access is lost.
@@ -218,7 +257,7 @@ Tell your human, in plain words:
 - How many to-dos moved onto the Sticky Note.
 - Anything on the "Needs sign-in" list.
 
-Then offer the weekly bot backup in one or two sentences. See **Back up your bots every week**. Set the routine only if they say yes.
+Then offer the weekly bot backup and the monthly skill check, each in one or two sentences. See **Back up your bots every week** and **Update your skills once a month**. Set a routine only if they say yes.
 
 ## Done looks like
 Your human opens one link, the Start Here page, and in under a minute knows where everything lives, which copy is the live one, and (through the Sticky Note) what's still open.
