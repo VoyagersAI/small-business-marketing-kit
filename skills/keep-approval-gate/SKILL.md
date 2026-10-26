@@ -2,7 +2,8 @@
 name: keep-approval-gate
 description: >-
   Use this whenever a draft, post, reply, or outreach message is finished and
-  must wait for a human KEEP before anything goes live.
+  must wait for a human KEEP before anything goes live. After a KEEP on a post,
+  and again when that post is live, save the caption with the still.
 ---
 # KEEP approval gate
 
@@ -30,3 +31,6 @@ Split into two lists: Needs you (waiting for a KEEP) and On me (approved, not do
 
 ## Live still waits for a check
 Even after a KEEP, check links, caption, picture, and voice before the live click. After posting, open it and confirm it's live before saying so.
+
+## Caption and still, saved together
+After a KEEP on a post, write one entry in the lasting post record: the still with the caption, in the same place (weekly-posting-calendar skill). When you confirm that post is live, update that same entry. One entry, one scroll. A calendar row does not take its place.
