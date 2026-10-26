@@ -26,7 +26,7 @@ This is a free plugin for Grok Bot and Cursor: a fill-in template that helps any
 * **getting-started:** a friendly first chat that sets up your business, your voice, your platforms, and your rules.
 * **get-access:** plain steps to connect Google Drive, set up an email for the bot, and sign in to each social platform.
 * **brand-voice:** a fill-in-the-blanks guide to how your business sounds, checked before every post.
-* **weekly-posting-calendar:** plan the week, track each post, and spot empty days two weeks ahead.
+* **weekly-posting-calendar:** plan the week, track each post, save each caption with its still in the backup folder, and spot empty days two weeks ahead.
 * **keep-approval-gate:** every draft waits for your KEEP. No answer means no post.
 * **follow-back-rules:** grow slowly and safely, one follow at a time, so platforms don't flag your account.
 

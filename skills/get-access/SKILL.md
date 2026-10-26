@@ -12,7 +12,7 @@ Now that the questions are answered, the bot needs a way in to the tools it will
 Say this first: "You do every password and every code. I never ask for a password in chat. When a site texts or emails you a code, you type it in yourself."
 
 ## 1. A backup folder (Google Drive or similar)
-* What it is: one folder where every draft, the voice guide, and the posting calendar are saved, so nothing is lost.
+* What it is: one folder where every draft, the voice guide, the posting calendar, and the lasting post record are saved, so they stay put when a chat resets. The post record is one Google Doc. Each entry keeps the still (the picture) with the caption (weekly-posting-calendar skill).
 * Ask: "Do you use Google Drive, or another folder service?"
 * Steps: the owner turns on the Google Drive connector (a sign-in that lets the bot use the app) in the bot's settings and signs in themselves. Then create one folder named [YOUR BUSINESS NAME] Marketing and confirm the bot can save a test file there.
 
